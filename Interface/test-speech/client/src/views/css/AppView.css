@@ -1,0 +1,171 @@
+#griddiv{
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows:  50% auto;
+    grid-gap: 5px;
+    height: 94vh;
+}
+
+#griddiv > div {
+    height: 46vh;
+}
+
+.box img {
+    margin-left:0;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+/* TRANSCRIPT FIELD */
+
+#div-microphone:hover{
+    cursor: pointer;
+}
+#input-notes{
+    float:left;
+    width: 92%;
+    height: 80%;
+    max-height: 40px;
+    min-width: 92%;
+}
+#img-microphone{
+    width: 100%;
+    min-width: 100%;
+}
+#div-microphone{
+    padding-left : 20px; float:left;
+    width: 4%;
+    min-width: 4%;
+}
+#div-table-speech {
+    position: relative;
+}
+#div-container-notes-speech{
+    height: 10%;
+    max-height: 45px;
+}
+#div-Speech{
+    margin:1%;
+    display:block;
+    background:black;
+}
+
+/* VIDEOPLAYER */
+#div-videoplayer {
+    text-align: center;
+    position: relative;
+    background-color: #f0f0f0;
+}
+
+.load-btn-videoplayer {
+    position: absolute;
+    top: 45%;
+}
+
+.btn-filechooser{
+    background:url(folder_directory_open-256.png);
+    width: 100%;
+    height: 100%;
+}
+
+/* TOOLBAR */
+
+#input-file{
+    display: none;
+}
+
+.images-toolbar{
+    height: 24px;
+    width: 24px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* TAGS */
+
+#div-tags > div > .MuiButtonBase-root {
+    margin: 10px 2px 0 2px;
+    padding: 2px 10px;
+
+}
+
+#no-tags-message {
+    padding-top: 40px;
+    margin: 0;
+    font-size: 0.8em;
+    color: darkgray;
+}
+
+#selected-tags{
+    min-height: 90px;
+    padding-bottom: 5px;
+    border-left: #f0f0f0 1px solid;
+}
+
+.empty-selected-tags {
+    text-align: center;
+}
+
+.not-empty-selected-tags {
+    display: flex;
+    align-items: center;
+
+}
+
+/* PLAYERS */
+
+#div-img-football {
+    display:grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: repeat(5, 20%);
+    height: 100%;
+    width: 100%;
+}
+
+.player-container {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.player-container > div {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.MuiFab-label {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.player-container-selected-player {
+    width: 70px;
+}
+
+/* TABLE */
+
+.MuiTableCell-footer {
+    border-bottom: none;
+    overflow-x: unset !important;
+    padding-left: 0 !important;
+}
+
+.MuiTableCell-footer > .MuiToolbar-root {
+    max-height: 30px;
+}
+
+.MuiToolbar-regular {
+     font-size: 1em;
+     height: 6vh;
+     min-height: 5% !important;
+}
+
+#material-table-wrapper{
+    height: 90%;
+}
+
+.MuiTableCell-body, .MuiTableCell-head{
+    padding: 0 5px !important;
+}
+
